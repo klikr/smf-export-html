@@ -4,9 +4,9 @@ This utility exports guest-visible SMF 2.1 forum content into paginated static H
 
 > **Disclaimer:** All code and documentation in this project were created with AI assistance. Review and test them before use.
 >
-> **Test environment disclaimer:** The project was tested with Ubuntu 22.04, MariaDB 10.6.23, and Python 3.10.12. Other environments have not been verified.
+> **Test environment disclaimer:** The project was tested with Ubuntu 22.04, MariaDB 10.6.23, Python 3.10.12, and SMF 2.1.8. Other environments have been and most probably will not be verified.
 >
-> Functionality is not guaranteed. The maintainers accept no responsibility for issues arising from its use.
+> Functionality is not guaranteed. The maintainers accept no responsibility for any issues arising from its use.
 >
 > Always ensure you have a working backup before running the exporter or making changes to your setup. Use a database account with read-only access for the export.
 
