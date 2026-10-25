@@ -3,6 +3,12 @@
 This utility exports guest-visible SMF 2.1 forum content into paginated static HTML pages. It reads the database directly and does not crawl the live site or write to the forum database.
 
 > **Disclaimer:** All code and documentation in this project were created with AI assistance. Review and test them before use.
+>
+> **Test environment disclaimer:** The project was tested with Ubuntu 22.04, MariaDB 10.6.23, and Python 3.10.12. Other environments have not been verified.
+>
+> Functionality is not guaranteed. The maintainers accept no responsibility for issues arising from its use.
+>
+> Always ensure you have a working backup before running the exporter or making changes to your setup. Use a database account with read-only access for the export.
 
 ## Configure
 
