@@ -10,6 +10,41 @@ This utility exports guest-visible SMF 2.1 forum content into paginated static H
 >
 > Always ensure you have a working backup before running the exporter or making changes to your setup. Use a database account with read-only access for the export.
 
+## Example output
+
+The result is a simple, sleek collection of static web pages, with pagination
+for large topics. With the example settings, the exporter creates an archive
+under `site/`:
+
+```text
+site/
+├── index.html
+├── assets/
+│   ├── style.css
+│   └── archive.js
+├── boards/
+│   └── <board-id>/
+│       ├── index.html
+│       └── page-2.html
+├── topics/
+│   └── <topic-id>/
+│       ├── index.html
+│       └── page-2.html
+└── media/
+    ├── forum-logo.png
+    ├── attachments/
+    ├── avatars/
+    ├── smileys/
+    ├── custom_avatars/
+    └── theme_images/
+```
+
+Board and topic folders contain additional `page-N.html` files when needed.
+The logo and media subfolders are included when configured or when there are
+files to export; the media-source subfolder names correspond to the names in
+`media_sources`. The HTML, CSS, and JavaScript can be served as ordinary static
+files.
+
 ## Configure
 
 Install the database connector:
