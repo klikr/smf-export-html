@@ -2,6 +2,8 @@
 
 This utility exports guest-visible SMF 2.1 forum content into paginated static HTML pages. It reads the database directly and does not crawl the live site or write to the forum database.
 
+> **Disclaimer:** All code and documentation in this project were created with AI assistance. Review and test them before use.
+
 ## Configure
 
 Install the database connector:
