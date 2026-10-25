@@ -1,0 +1,36 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "name": "smf",
+    "user": "archive_reader",
+    "password": "change-this",
+    "prefix": "smf_"
+  },
+  "output_dir": "site",
+  "media_dir": "media",
+  "logo_path": "/absolute/path/to/SMF/Logo1.png",
+  "attachment_dirs": {
+    "1": "/absolute/path/to/SMF/attachments"
+  },
+  "media_sources": {
+    "smileys": {
+      "path": "/absolute/path/to/SMF/Smileys",
+      "url_prefix": "https://example.com/Smileys/"
+    },
+    "avatars": {
+      "path": "/absolute/path/to/SMF/avatars",
+      "url_prefix": "https://example.com/avatars/"
+    },
+    "custom_avatars": {
+      "path": "/absolute/path/to/SMF/custom_avatar",
+      "url_prefix": "https://example.com/custom_avatar/"
+    },
+    "theme_images": {
+      "path": "/absolute/path/to/SMF/Themes/default/images",
+      "url_prefix": "https://example.com/Themes/default/images/"
+    }
+  },
+  "topics_per_page": 25,
+  "posts_per_page": 20
+}
